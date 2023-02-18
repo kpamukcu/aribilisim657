@@ -1,0 +1,131 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.bg-acikMavi,
+.btn-acikMavi {
+    background-color: #b1d4fe;
+}
+
+.btn-outline-acikMavi {
+    background-color: transparent;
+    border: 1px #b1d4fe solid;
+}
+
+.bi {
+    font-size: 26px;
+    color: #393939;
+}
+
+#topFooter a {
+    color: #393939;
+    text-decoration: none;
+}
+
+#mainServices h2,
+#blogList h2,
+#makale h2 {
+    font-size: 24px;
+}
+
+#blogList a,
+#makale a {
+    color: #393939 !important;
+    text-decoration: none !important;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.foto {
+    border-radius: 256px;
+}
+
+.display-5 {
+    font-size: 25px;
+}
+
+#slider img {
+    filter: grayscale(70%);
+}
+
+.card img {
+    cursor: pointer;
+}
+
+.bi-star-fill,
+.bi-star {
+    font-size: 18px;
+    color: #ffc107;
+}
+
+@media(max-width:768px) {
+
+    /*Bütün Css Kodları Buraya yazılacak ama önemli olan sadece
+     mobil görünümde değişmesini istediğiniz özellikler yazılacak */
+
+    #topHeader,
+    #topHeader .text-right,
+    #bottomFooter,
+    #bottomFooter .text-right,
+    #aciklama h2 {
+        text-align: center !important;
+    }
+
+    #mainBanner .col-md-6:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    #mainServices .col-md-4:nth-child(3) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .aralik,
+    #content .col-md-4{
+        margin-bottom: 25px;
+    }
+
+    #topFooter .col-md-3,
+    #iletisim .col-md-3{
+        width: 50%;
+    }
+
+    #topFooter img {
+        width: 90%;
+    }
+
+    #aciklama .col-md-6:nth-child(1) {
+        margin-bottom: 40px !important;
+    }
+
+    #aciklama p,
+    #content p,
+    article p{
+        text-align: justify;
+    }
+
+    #iletisim a{
+        font-size:13px;
+    }
+}
